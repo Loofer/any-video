@@ -1,6 +1,7 @@
 package cn.ictgu.tools;
 
 import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -9,7 +10,7 @@ import java.net.URL;
  * Url 工具类
  * Created by Silence on 2016/11/24.
  */
-@Log4j2
+@Slf4j
 public class UrlUtils {
 
     public static String getDomain(String url) {

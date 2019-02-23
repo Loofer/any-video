@@ -1,6 +1,7 @@
 package cn.ictgu.tools;
 
 import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
@@ -11,7 +12,7 @@ import java.util.Map;
 /**
  * 集合工具类
  */
-@Log4j2
+@Slf4j
 public class CollectionUtils {
 
     /**

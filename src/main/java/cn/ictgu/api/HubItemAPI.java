@@ -6,6 +6,7 @@ import cn.ictgu.service.model.User;
 import cn.ictgu.service.HubItemService;
 import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,7 +20,7 @@ import javax.servlet.http.HttpServletRequest;
  * Created by Silence on 2017/3/14.
  */
 @RestController
-@Log4j2
+@Slf4j
 @AllArgsConstructor
 public class HubItemAPI {
 

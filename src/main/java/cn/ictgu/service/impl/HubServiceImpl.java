@@ -8,6 +8,7 @@ import cn.ictgu.service.model.Hub;
 import cn.ictgu.service.HubService;
 import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.DigestUtils;
@@ -19,7 +20,7 @@ import java.util.List;
  * 仓库管理
  */
 @Service
-@Log4j2
+@Slf4j
 @AllArgsConstructor
 public class HubServiceImpl implements HubService {
 

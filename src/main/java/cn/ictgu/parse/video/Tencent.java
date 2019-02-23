@@ -8,6 +8,7 @@ import cn.ictgu.parse.Parser;
 import cn.ictgu.tools.JsoupUtils;
 import com.alibaba.fastjson.JSONObject;
 import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.math.RandomUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -20,7 +21,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-@Log4j2
+@Slf4j
 public class Tencent implements Parser<Video> {
     private final static String VIDEO_API = "http://h5vv.video.qq.com/getinfo";
     private final static String KEY_API = "http://h5vv.video.qq.com/getkey";

@@ -4,6 +4,7 @@ import cn.ictgu.bean.response.Video;
 import cn.ictgu.tools.JsoupUtils;
 import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -18,7 +19,7 @@ import java.util.List;
  * Created by Silence on 2017/2/12.
  */
 @Component
-@Log4j2
+@Slf4j
 @AllArgsConstructor
 public class QqCrawler {
 

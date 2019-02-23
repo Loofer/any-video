@@ -4,6 +4,7 @@ import cn.ictgu.bean.response.Video;
 import cn.ictgu.constant.ExceptionEnum;
 import cn.ictgu.exception.AnyException;
 import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -18,7 +19,7 @@ import java.util.List;
  * 视频搜索
  */
 @Component
-@Log4j2
+@Slf4j
 public class VideoSearch {
 
     private static final String le = "http://m.le.com";

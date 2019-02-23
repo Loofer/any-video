@@ -5,13 +5,14 @@ import cn.ictgu.service.model.User;
 import cn.ictgu.service.UserService;
 import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
 @AllArgsConstructor
-@Log4j2
+@Slf4j
 public class UserServiceImpl implements UserService {
 
     private final static int USER_SIZE = 20;
